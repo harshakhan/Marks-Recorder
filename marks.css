@@ -1,0 +1,109 @@
+*{
+    background-color:#ffffff;
+    color:#41425a;
+
+
+    /* background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif; */
+    
+    
+    
+   
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  color:#41425a;
+  margin: auto;
+
+  text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: 	#00ac96;
+}
+input, option{
+    border: 3px solid	#00ac96;
+    border-radius: 5px; 
+    
+   
+}
+
+input, button, select{
+    padding: 10px;
+    margin: 7px;
+    color: black;
+    font-size: 15px;
+    background-color: 	#e6f8f5;
+    /* background: linear-gradient(to right, #25c481, #25b7c4) */
+}
+
+  
+  button {
+    border: 3px solid #d95670;
+    border-radius: 5px;
+    color: white;
+    background-color:	#ff6584;
+    font-size: 20px;
+  }
+  table {
+    margin-top: 10px;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    color: #41425a;
+    
+    
+  }
+  table, td, th {
+    border: 3px solid  #00bfa6;
+    border-collapse: collapse;
+    background-color: #e6f8f5;
+   
+  }
+  td, th {
+    padding: 10px;
+    
+  }
+  
+ 
+  #option{
+    border: 3px solid 	#00ac96;
+    padding: 9px;
+    width: 210px;
+    border-radius: 5px;
+
+  }
+
+  #grade{
+    border: 3px solid 	#00ac96;
+    padding: 9px;
+    width: 210px;
+    border-radius: 5px;
+
+
+  }
+  #image{
+    display: flex;
+    width:600px;
+    height: 500px;
+    float: right;
+    margin-right: 30%;
+    /* padding: 10px; */
+      
+    /* background-color: white; */
+    
+  }
+  #myInput{
+    /* margin-left: 1%; */
+    width: 300px;
+    border-radius: 25px;
+
+  }
+ 
+  
+ 

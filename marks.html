@@ -1,0 +1,95 @@
+<!-- 
+    Should be able to add an entry for the student for a grade, section, exam type and subject
+    Should be able to see the data aggregated with any of the above filters and also basic statistics like average, minimum and maximum (probably with differnt style when the student is below average and above average)
+    Should be able to see the individual students performance in a detailed fashion -->
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Table</title>
+      <link rel="stylesheet" type="text/css" href="marks.css">
+     
+    </head>
+    <body>
+        <h1>Marks Recorder</h1>
+        <p>Enter below details to record a new entry</p>
+       
+        <div id="image"><img src="resources/body4.png" alt="img"></div>
+    
+      <form>
+          <lable for ="name">Name:</lable><br>
+          <input type="text" id="name" placeholder="name" ><br>
+    
+    
+          <!-- <lable for ="section">Section:</lable><br>
+          <select id ="section">
+    
+            <option>----</option>
+            <option>Aq</option>
+            <option>B</option>
+            <option>C</option>
+          </select><br> -->
+    
+    
+          <lable for ="option">Exam Type :</lable><br>
+          <select id ="option">
+    
+            <option>----</option>
+            <option>Half Yearly</option>
+            <option>Annual Exam</option>
+          </select><br>
+    
+          <lable for ="grade">Grade:</lable><br>
+          <select id ="grade">
+    
+            <option>----</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>F</option>
+          </select><br>
+    
+    
+          <lable for ="science">Science Marks:</lable><br>
+          <input type="text" id="science" placeholder="marks"><br>
+    
+          <lable for ="english">English Marks:</lable><br>
+          <input type="text" id="english" placeholder="marks"><br>
+    
+          <lable for ="math">Math Marks:</lable><br>
+          <input type="text" id="math" placeholder="marks"><br>
+    
+          
+    
+    
+      </form>
+    
+    
+    
+      <div>
+        <button id="button">Add Details</button>
+      </div>
+    
+      <input type="text" name="search" id='myInput'  placeholder="Search By Name &#128269;"/." onkeyup="searchFun()">
+      <table id="table">
+        <tr>
+          <th>Name</th>
+          <th>Exam Type</th>
+          <!-- <th>Section</th> -->
+          <th>Grade</th>
+          <th>Science Marks</th>
+          <th>English Marks</th>
+          <th>Math Marks</th>
+          <th>Total Marks</th>
+          <th>Average</th>
+        </tr>
+       
+      </table>
+      
+      <script src="marks.js"></script>
+    </body>
+    </html>
