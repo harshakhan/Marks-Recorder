@@ -89,10 +89,10 @@ input, button, select{
   }
   #image{
     display: flex;
-    width:600px;
-    height: 500px;
+    width: 20%;
+    height: 665px;
     float: right;
-    margin-right: 30%;
+    margin-right: 60%;
     /* padding: 10px; */
       
     /* background-color: white; */
